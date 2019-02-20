@@ -46,7 +46,22 @@ body {
 }
 
 .details .head1 {
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: 3vw;
+}
 
+.details .head2 {
+    margin-left: 25%;
+    font-size: 2.5vw;
+}
+.details .heading {
+    background:rgba(0, 255, 245, 0.51);
+}
+
+.details .head3 {
+    margin-top: 10px;
+    margin-left: 15px;
 }
 .intro .icon {
     margin-top: 40px;
@@ -55,6 +70,10 @@ body {
     color: white;
 }
 .details ul {
-    list-style-position: inside;
-    padding: 10px 0px 0px 10px;
+    list-style-position: outside;
+    margin: 5px 10px 0px 40px;
+    padding: 5px 5px 5px 10px;
+}
+.details li {
+    line-height: 2vw;
 }
