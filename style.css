@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+}
+.intro .image {
+   max-width: 50vw;
+    max-height: 50vh;
+}
+
+.intro {
+    background: black;
+    color: white;
+    float: left;
+    width: 30vw;
+    height: 100vh;
+}
+
+.details {
+    width:70vw;
+    height: 100vh;
+    float: right;
+    background: red;
+}
+
+.details ul {
+    list-style-position: inside;
+    padding: 10px 0px 0px 10px;
+}
