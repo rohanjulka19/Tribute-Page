@@ -69,6 +69,10 @@ body {
     padding: 20px 0px 0px 2px ;
     color: white;
 }
+
+.intro .icon:hover {
+   color:blue;
+}
 .details ul {
     list-style-position: outside;
     margin: 5px 10px 0px 40px;
